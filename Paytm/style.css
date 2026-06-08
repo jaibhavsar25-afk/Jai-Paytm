@@ -1,0 +1,44 @@
+.specialBox {
+  background-color: orange;
+  width: 140px;
+  height: 50px;
+  border-radius: 15%;
+  border-color: orange;
+
+}
+.bg-CD {
+
+  background-color:   #f08ec7;
+}
+.bg-ABC {
+  background-color:   #f5de92;
+}
+
+.bg-color {
+  background-color: pink;
+}
+  <style>
+        /* 1. Hide the default Bootstrap right-side arrow */
+        .paytm-accordion .accordion-button::after {
+            display: none;
+        }
+        
+        /* 2. Style the button to match the image */
+        .paytm-accordion .accordion-button {
+            background-color: transparent;
+            color: #000;
+            font-weight: 600;
+            padding: 1rem 0; /* Remove side padding */
+            font-size: 0.95rem;
+        }
+
+        /* 3. Make the background of the items transparent to blend with the page */
+        .paytm-accordion .accordion-item {
+            background-color: transparent;
+        }
+
+        /* 4. Optional: Change the + to a - when the menu is open */
+        .paytm-accordion .accordion-button:not(.collapsed) .toggle-icon::before {
+            content: "-";
+        }
+    </style>
